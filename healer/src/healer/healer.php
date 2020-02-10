@@ -10,7 +10,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
 
-class Main extends PluginBase implements Listener {
+class healer extends PluginBase implements Listener {
 
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);    
