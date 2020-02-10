@@ -21,7 +21,7 @@ class healer extends PluginBase implements Listener {
     }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
         switch($cmd->getName()){                    
-            case "healer":
+            case "heal":
                 if ($sender->hasPermission("heal.use")){
                      $this->Menu($sender);
                 }else{     
