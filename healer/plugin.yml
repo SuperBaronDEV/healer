@@ -7,3 +7,5 @@ commands:
   heal:
     description: heal the player!
     usage: /heal
+  permissions: heal.use
+    deafult: op
