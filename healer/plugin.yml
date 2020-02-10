@@ -8,4 +8,4 @@ commands:
     description: heal the player!
     usage: /heal
   permissions: heal.use
-    deafult: op
+  deafult: op
