@@ -2,7 +2,7 @@ name: healer
 author: SuperBaronDEV
 api: [3.0.0]
 version: 1.0.0
-main: healer\healer
+main: SuperBaronDEV\healer\healer
 commands:
   heal:
     description: heal the player!
