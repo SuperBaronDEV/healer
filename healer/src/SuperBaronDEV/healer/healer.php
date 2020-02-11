@@ -21,7 +21,7 @@ class healer extends PluginBase implements Listener {
     }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
         switch($cmd->getName()){                    
-            case "heal":
+            case 0:
                 if ($sender->hasPermission("heal.use")){
                      $this->Menu($sender);
                 }else{     
@@ -42,7 +42,7 @@ class healer extends PluginBase implements Listener {
                 return true;
             }             
             switch($result){
-                case 0:
+                case "heal":
             $sender->setHealth(20);
             $sender->addTitle("Healed", "You are secfully healed!!!");
             $sender->sendMessage(TextFormat:: GREEN . "§aYou have been healed!");
