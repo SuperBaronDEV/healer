@@ -12,13 +12,6 @@ use pocketmine\utils\TextFormat;
 
 class healer extends PluginBase implements Listener {
 
-    public function onEnable() {
-        $this->getServer()->getPluginManager()->registerEvents($this, $this);    
-        $this->getLogger()->info(TextFormat::GREEN . "Plugin Enabled!");
-    }
-    public function onDisable() {
-        $this->getLogger()->info(TextFormat::RED . "Plugin Disabled!");
-    }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
         switch($cmd->getName()){                    
             case 0:
