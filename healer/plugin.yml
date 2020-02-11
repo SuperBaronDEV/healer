@@ -1,7 +1,7 @@
 name: healer
 author: SuperBaronDEV
 api: [3.0.0]
-version: 1.0.0
+version: 1.0.2
 main: SuperBaronDEV\healer\healer
 commands:
   heal:
